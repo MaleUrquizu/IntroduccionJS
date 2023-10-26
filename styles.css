@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+}
+
+.carta {
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px; 
+    margin: 20px auto; 
+}
+
+img {
+    max-width: 200px;
+}
+
+.fa-heart {
+    color: #ccc;
+    cursor: pointer;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.fa-heart.red {
+    color: red;
+}
